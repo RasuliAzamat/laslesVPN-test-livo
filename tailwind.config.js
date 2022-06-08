@@ -7,6 +7,7 @@ module.exports = {
         gray: '#4F5665',
         dark: '#0B132A',
         success: '#2FAB73',
+        gold: '#FEA250',
       },
       fontFamily: {
         mainFamily: ['Rubik', 'sans-serif'],
