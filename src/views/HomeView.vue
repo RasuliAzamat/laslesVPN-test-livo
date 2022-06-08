@@ -3,7 +3,8 @@
     <HomeViewMain class="mb-36" />
     <HomeViewStatistics class="mb-32" />
     <HomeViewFeatures class="mb-28" />
-    <HomeViewPricing class="mb-36" />
+    <HomeViewPricing class="pb-72" />
+    <HomeViewNetwork class="mb-28" />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HomeViewMain from '../components/HomeViewMain.vue'
 import HomeViewStatistics from '../components/HomeViewStatistics.vue'
 import HomeViewFeatures from '../components/HomeViewFeatures.vue'
 import HomeViewPricing from '../components/HomeViewPricing.vue'
+import HomeViewNetwork from '../components/HomeViewNetwork.vue'
 </script>
 
 <style lang="scss" scoped></style>

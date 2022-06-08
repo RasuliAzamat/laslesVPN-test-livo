@@ -1,5 +1,7 @@
 <template>
-  <div class="grid grid-cols-3 grid-rows-1 py-10 rounded-xl shadow-xl">
+  <div
+    class="max-w-appContainer px-4 lg:px-8 mx-auto grid grid-cols-3 grid-rows-1 py-10 rounded-xl shadow-xl"
+  >
     <div class="flex justify-center py-10 border-r border-slate-200">
       <span class="mr-9 px-5 py-4 bg-red-100 rounded-full">
         <UserIcon class="w-5 text-danger" />

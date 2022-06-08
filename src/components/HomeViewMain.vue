@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-between">
+  <section class="max-w-appContainer px-4 lg:px-8 mx-auto flex justify-between">
     <div class="basis-2/5">
       <h1 class="mt-10 mb-6">Want anything to be easy with <strong>LaslesVPN.</strong></h1>
       <p class="mb-12">

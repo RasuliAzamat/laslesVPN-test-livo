@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-appContainer px-4 lg:px-8 mx-auto">
+  <div>
     <TheHeader />
 
     <main>
@@ -8,17 +8,9 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import TheHeader from './components/TheHeader.vue'
 import HomeView from './views/HomeView.vue'
-
-export default {
-  components: {TheHeader, HomeView},
-
-  setup() {
-    return {}
-  },
-}
 </script>
 
 <style lang="scss" scoped></style>

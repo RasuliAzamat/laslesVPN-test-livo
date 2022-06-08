@@ -1,5 +1,5 @@
 <template>
-  <section class="flex">
+  <section class="max-w-appContainer px-4 lg:px-8 mx-auto flex">
     <div class="basis-2/5">
       <img src="@/assets/images/home-features.png" alt="" class="w-full object-cover" />
     </div>
