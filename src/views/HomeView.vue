@@ -15,15 +15,15 @@
 </template>
 
 <script setup>
-import HomeViewMain from '../components/HomeViewMain.vue'
-import HomeViewStatistics from '../components/HomeViewStatistics.vue'
-import HomeViewFeatures from '../components/HomeViewFeatures.vue'
-import HomeViewPricing from '../components/HomeViewPricing.vue'
-import HomeViewNetwork from '../components/HomeViewNetwork.vue'
-import HomeViewPartners from '../components/HomeViewPartners.vue'
-import HomeViewReviews from '../components/HomeViewReviews.vue'
-import HomeViewSubscribe from '../components/HomeViewSubscribe.vue'
-import TheFooter from '../components/TheFooter.vue'
+import HomeViewMain from '../components/HomeView/HomeViewMain.vue'
+import HomeViewStatistics from '../components/HomeView/HomeViewStatistics.vue'
+import HomeViewFeatures from '../components/HomeView/HomeViewFeatures.vue'
+import HomeViewPricing from '../components/HomeView/HomeViewPricing.vue'
+import HomeViewNetwork from '../components/HomeView/HomeViewNetwork.vue'
+import HomeViewPartners from '../components/HomeView/HomeViewPartners.vue'
+import HomeViewReviews from '../components/HomeView/HomeViewReviews.vue'
+import HomeViewSubscribe from '../components/HomeView/HomeViewSubscribe.vue'
+import TheFooter from '../components/global/TheFooter.vue'
 </script>
 
 <style lang="scss" scoped></style>

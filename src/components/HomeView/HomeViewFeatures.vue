@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-appContainer px-4 lg:px-8 mx-auto flex">
     <div class="basis-2/5">
-      <img src="@/assets/images/home-features.png" alt="" class="w-full object-cover" />
+      <img src="/src/assets/images/home-features.png" alt="" class="w-full object-cover" />
     </div>
     <div class="basis-1/2">
       <h1 class="mb-14">We Provide Many Features You Can Use</h1>

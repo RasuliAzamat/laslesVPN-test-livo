@@ -13,7 +13,7 @@
           :key="id"
           class="flex items-center flex-col px-20 pt-20 pb-12 border-2 border-slate-300 hover:border-danger transition-all bg-white"
         >
-          <img src="../assets/images/home-pricing.png" alt="" class="mb-8" />
+          <img src="/src/assets/images/home-pricing.png" alt="" class="mb-8" />
 
           <h3 class="mb-8">{{ name }}</h3>
 

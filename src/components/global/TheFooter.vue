@@ -3,19 +3,14 @@
     <div class="max-w-appContainer pb-24 pt-44 px-4 lg:px-8 mx-auto">
       <div class="flex items-center justify-between">
         <div class="basis-1/4">
-          <img src="../assets/images/logo.png" alt="logo" class="mb-5" />
+          <img src="/src/assets/images/logo.png" alt="logo" class="mb-5" />
           <p class="mb-8">
             <strong>LaslesVPN</strong> is a private virtual network that has unique features and has
             high security.
           </p>
           <div class="flex items-center mb-8">
-            <a
-              v-for="{id, name, url, image} in social"
-              :key="id"
-              :href="url"
-              class="mr-5 last:mr-0"
-            >
-              <img :src="image" :alt="name" />
+            <a v-for="{id, name, url, image} in social" :key="id" :href="url">
+              <img :src="image" :alt="name" class="w-full object-cover" />
             </a>
           </div>
           <p>©2020LaslesVPN</p>
@@ -52,35 +47,35 @@
 </template>
 
 <script setup>
-import {ref} from '@vue/reactivity'
+import {ref} from 'vue'
 
 const social = ref([
-  {id: '1', name: 'Facebook', url: '#', image: '@/assets/images/facebook.png'},
-  {id: '2', name: 'Twitter', url: '#', image: '@/assets/images/twitter.png'},
-  {id: '3', name: 'Instagram', url: '#', image: '@/assets/images/instagram.png'},
+  {id: '1', name: 'Facebook', url: '#', image: '/src/assets/images/social/facebook.png'},
+  {id: '2', name: 'Twitter', url: '#', image: '/src/assets/images/social/twitter.png'},
+  {id: '3', name: 'Instagram', url: '#', image: '/src/assets/images/social/instagram.png'},
 ])
 
 const product = ref([
-  {id: '1', text: 'Download', path: ''},
-  {id: '2', text: 'Pricing', path: ''},
-  {id: '3', text: 'Locations', path: ''},
-  {id: '4', text: 'Server', path: ''},
-  {id: '5', text: 'Countries', path: ''},
-  {id: '6', text: 'Blog', path: ''},
+  {id: '1', text: 'Download', path: '#'},
+  {id: '2', text: 'Pricing', path: '#'},
+  {id: '3', text: 'Locations', path: '#'},
+  {id: '4', text: 'Server', path: '#'},
+  {id: '5', text: 'Countries', path: '#'},
+  {id: '6', text: 'Blog', path: '#'},
 ])
 
 const engage = ref([
-  {id: '1', text: 'LaslesVPN', path: ''},
-  {id: '2', text: 'FAQ', path: ''},
-  {id: '3', text: 'Tutorials', path: ''},
-  {id: '4', text: 'About Us', path: ''},
-  {id: '5', text: 'Privacy Policy', path: ''},
-  {id: '6', text: 'Terms of Service', path: ''},
+  {id: '1', text: 'LaslesVPN', path: '#'},
+  {id: '2', text: 'FAQ', path: '#'},
+  {id: '3', text: 'Tutorials', path: '#'},
+  {id: '4', text: 'About Us', path: '#'},
+  {id: '5', text: 'Privacy Policy', path: '#'},
+  {id: '6', text: 'Terms of Service', path: '#'},
 ])
 
 const earnMoney = ref([
-  {id: '1', text: 'Affiliate', path: ''},
-  {id: '2', text: 'Become Partner', path: ''},
+  {id: '1', text: 'Affiliate', path: '#'},
+  {id: '2', text: 'Become Partner', path: '#'},
 ])
 </script>
 

@@ -5,7 +5,7 @@
 
 .reviews-slider .swiper-slide-active {
   border-color: #f53838;
-  @apply shadow-xl
+  @apply shadow-xl;
 }
 
 .reviews-slider .swiper-horizontal > .swiper-pagination-bullets,
@@ -45,19 +45,19 @@
 
 .swiper-button-prev {
   left: 90%;
-  background-image: url('../images/slider-arrow-left.png');
+  background-image: url('../images/slider/slider-arrow-left.png');
 }
 
 .swiper-button-next {
-  background-image: url('../images/slider-arrow-right.png');
+  background-image: url('../images/slider/slider-arrow-right.png');
 }
 
 .swiper-button-prev.swiper-button-disabled {
   opacity: 1;
-  background-image: url('../images/slider-arrow-left-disabled.png');
+  background-image: url('../images/slider/slider-arrow-left-disabled.png');
 }
 
 .swiper-button-next.swiper-button-disabled {
   opacity: 1;
-  background-image: url('../images/slider-arrow-right-disabled.png');
+  background-image: url('../images/slider/slider-arrow-right-disabled.png');
 }

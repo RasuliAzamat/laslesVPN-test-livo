@@ -2,7 +2,7 @@
   <header class="max-w-appContainer px-4 lg:px-8 mx-auto mb-20">
     <nav class="flex items-center justify-between pt-11">
       <a href="/">
-        <img src="../assets/images/logo.png" alt="logo" />
+        <img src="/src/assets/images/logo.png" alt="logo" />
       </a>
 
       <ul class="flex">

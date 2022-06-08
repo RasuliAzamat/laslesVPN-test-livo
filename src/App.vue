@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import TheHeader from './components/TheHeader.vue'
+import TheHeader from './components/global/TheHeader.vue'
 import HomeView from './views/HomeView.vue'
 </script>
 

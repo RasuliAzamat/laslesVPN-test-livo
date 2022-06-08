@@ -14,7 +14,7 @@
     </div>
     <div class="basis-1/2">
       <img
-        src="@/assets/images/home.png"
+        src="/src/assets/images/home.png"
         alt="person sittig near desctop"
         class="w-full object-contain"
       />

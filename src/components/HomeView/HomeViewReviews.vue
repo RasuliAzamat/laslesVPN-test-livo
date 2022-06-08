@@ -50,7 +50,7 @@ import {StarIcon} from '@heroicons/vue/solid'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-import '@/assets/css/reviews-slider.css'
+import '/src/assets/css/reviews-slider.css'
 
 const modules = ref([Autoplay, Navigation, Pagination])
 
@@ -58,7 +58,7 @@ const reviews = ref([
   {
     id: '1',
     author: 'Viezh Robert',
-    avatar: '@/assets/images/avatar-1.png',
+    avatar: '/src/assets/images/avatar-1.png',
     from: 'Warsaw, Poland',
     text: '“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.',
     rating: 4.5,
@@ -66,7 +66,7 @@ const reviews = ref([
   {
     id: '2',
     author: 'Yessica Christy',
-    avatar: '@/assets/images/avatar-2.png',
+    avatar: '/src/assets/images/avatar-2.png',
     from: 'Shanxi, China',
     text: '“I like it because I like to travel far and still can connect with high speed.”.',
     rating: 4.5,
@@ -74,7 +74,7 @@ const reviews = ref([
   {
     id: '3',
     author: 'Kim Young Jou',
-    avatar: '@/assets/images/avatar-3.png',
+    avatar: '/src/assets/images/avatar-3.png',
     from: 'Seoul, South Korea',
     text: '“This is very unusual for my business that currently requires a virtual private network that has high security.”.',
     rating: 4.5,
@@ -82,7 +82,7 @@ const reviews = ref([
   {
     id: '4',
     author: 'Viezh Robert',
-    avatar: '@/assets/images/avatar-1.png',
+    avatar: '/src/assets/images/avatar-1.png',
     from: 'Warsaw, Poland',
     text: '“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.',
     rating: 4.5,
@@ -90,7 +90,7 @@ const reviews = ref([
   {
     id: '5',
     author: 'Yessica Christy',
-    avatar: '@/assets/images/avatar-2.png',
+    avatar: '/src/assets/images/avatar-2.png',
     from: 'Shanxi, China',
     text: '“I like it because I like to travel far and still can connect with high speed.”.',
     rating: 4.5,
