@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between">
+  <section class="flex justify-between">
     <div class="basis-2/5">
       <h1 class="mt-10 mb-6">Want anything to be easy with <strong>LaslesVPN.</strong></h1>
       <p class="mb-12">
@@ -19,7 +19,7 @@
         class="w-full object-contain"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup></script>

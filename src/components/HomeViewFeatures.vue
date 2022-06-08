@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <section class="flex">
     <div class="basis-2/5">
       <img src="@/assets/images/home-features.png" alt="" class="w-full object-cover" />
     </div>
@@ -20,7 +20,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

@@ -17,4 +17,8 @@
     @apply text-5xl font-semibold text-dark;
     line-height: 70px;
   }
+
+  h3 {
+    @apply text-lg font-semibold text-dark;
+  }
 }
