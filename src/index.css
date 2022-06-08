@@ -14,11 +14,18 @@
   }
 
   h1 {
-    @apply text-5xl font-semibold text-dark;
-    line-height: 70px;
+    @apply text-3xl font-semibold text-dark;
+    line-height: 50px;
   }
 
   h3 {
     @apply text-lg font-semibold text-dark;
+  }
+
+  @media (min-width: 1024px) {
+    h1 {
+      @apply text-5xl;
+      line-height: 70px;
+    }
   }
 }

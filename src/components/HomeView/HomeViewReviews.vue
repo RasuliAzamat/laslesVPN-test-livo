@@ -1,6 +1,6 @@
 <template>
   <section class="max-w-appContainer px-4 lg:px-8 mx-auto">
-    <div class="w-2/5 m-auto mb-16 text-center">
+    <div class="md:w-2/5 m-auto mb-16 text-center">
       <h1 class="mb-5">Trusted by Thousands of Happy Customer</h1>
       <p>
         These are the stories of our customers who have joined us with great pleasure when using
@@ -12,14 +12,17 @@
       :navigation="true"
       :pagination="true"
       :autoplay="{delay: 2500}"
-      :slidesPerView="2.5"
+      :slidesPerView="1.5"
       :spaceBetween="50"
+      :breakpoints="{
+        768: {slidesPerView: 2.5},
+      }"
       class="reviews-slider"
     >
       <swiper-slide
         v-for="{id, author, avatar, from, text, rating} in reviews"
         :key="id"
-        class="flex flex-col h-56 p-8 border-2 rounded-xl border-slate-200"
+        class="flex flex-col h-56 overflow-y-auto p-4 md:p-8 border-2 rounded-xl border-slate-200"
       >
         <div class="w-full flex items-center justify-between mb-5">
           <div class="flex items-center">
@@ -43,7 +46,7 @@
 </template>
 
 <script setup>
-import {ref} from 'vue'
+import {reactive, ref} from 'vue'
 import {Autoplay, Navigation, Pagination} from 'swiper'
 import {Swiper, SwiperSlide} from 'swiper/vue'
 import {StarIcon} from '@heroicons/vue/solid'

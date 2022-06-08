@@ -1,7 +1,9 @@
 <template>
   <section class="max-w-appContainer px-4 lg:px-8 mx-auto bg-white shadow-xl">
-    <div class="flex items-center justify-between py-12 px-16">
-      <div class="basis-5/12">
+    <div
+      class="flex flex-col md:flex-row items-center justify-between py-12 px-10 md:px-16 text-center"
+    >
+      <div class="w-full md:basis-5/12 mb-5">
         <h1>Subscribe Now for Get Special Features!</h1>
         <p>Let's subscribe with us and find the fun.</p>
       </div>

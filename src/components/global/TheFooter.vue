@@ -1,8 +1,8 @@
 <template>
   <footer class="bg-slate-100">
     <div class="max-w-appContainer pb-24 pt-44 px-4 lg:px-8 mx-auto">
-      <div class="flex items-center justify-between">
-        <div class="basis-1/4">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="w-full md:basis-1/4">
           <img src="/src/assets/images/logo.png" alt="logo" class="mb-5" />
           <p class="mb-8">
             <strong>LaslesVPN</strong> is a private virtual network that has unique features and has
@@ -13,10 +13,10 @@
               <img :src="image" :alt="name" class="w-full object-cover" />
             </a>
           </div>
-          <p>©2020LaslesVPN</p>
+          <p class="hidden md:inline-block">©2020LaslesVPN</p>
         </div>
-        <div class="basis-5/12 flex justify-between">
-          <div>
+        <div class="w-full mb-10 md:mb-0 md:basis-5/12 flex flex-col sm:flex-row justify-between">
+          <div class="mb-7 sm:mb-0">
             <h3>Product</h3>
             <ul>
               <li v-for="{id, text, path} in product" :key="id">
@@ -24,7 +24,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="mb-7 sm:mb-0">
             <h3>Engage</h3>
             <ul>
               <li v-for="{id, text, path} in engage" :key="id">
@@ -32,7 +32,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="mb-7 sm:mb-0">
             <h3>Earn Money</h3>
             <ul>
               <li v-for="{id, text, path} in earnMoney" :key="id">
@@ -42,6 +42,7 @@
           </div>
         </div>
       </div>
+      <p class="inline-block md:hidden">©2020LaslesVPN</p>
     </div>
   </footer>
 </template>

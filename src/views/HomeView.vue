@@ -1,11 +1,11 @@
 <template>
   <div>
-    <HomeViewMain class="mb-36" />
-    <HomeViewStatistics class="mb-32" />
-    <HomeViewFeatures class="mb-28" />
-    <HomeViewPricing class="pb-72" />
-    <HomeViewNetwork class="mb-28" />
-    <HomeViewPartners class="mb-32" />
+    <HomeViewMain class="mb-28 md:mb-36" />
+    <HomeViewStatistics class="mb-24 md:mb-32" />
+    <HomeViewFeatures class="mb-20 md:mb-28" />
+    <HomeViewPricing class="pb-60 md:pb-72" />
+    <HomeViewNetwork class="mb-20 md:mb-28" />
+    <HomeViewPartners class="mb-24 md:mb-32" />
     <HomeViewReviews />
     <div class="relative flex items-center flex-col">
       <HomeViewSubscribe class="absolute" />
