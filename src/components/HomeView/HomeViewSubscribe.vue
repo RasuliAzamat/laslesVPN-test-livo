@@ -1,10 +1,10 @@
 <template>
-  <section class="max-w-appContainer px-4 lg:px-8 mx-auto bg-white shadow-xl">
+  <section id="help" class="w-full max-w-appContainer px-4 lg:px-8 mx-auto bg-white shadow-xl">
     <div
       class="flex flex-col md:flex-row items-center justify-between py-12 px-10 md:px-16 text-center"
     >
-      <div class="w-full md:basis-5/12 mb-5">
-        <h1>Subscribe Now for Get Special Features!</h1>
+      <div class="w-full md:basis-1/3 mb-10">
+        <h2 class="text-3xl font-bold text-dark mb-5">Subscribe Now for Get Special Features!</h2>
         <p>Let's subscribe with us and find the fun.</p>
       </div>
       <div>

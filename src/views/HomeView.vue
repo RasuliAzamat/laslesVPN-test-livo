@@ -9,7 +9,7 @@
     <HomeViewReviews />
     <div class="relative flex items-center flex-col">
       <HomeViewSubscribe class="absolute" />
-      <TheFooter class="absolute -z-10 w-full mt-40" />
+      <TheFooter class="absolute -z-10 w-full mt-60 sm:mt-40" />
     </div>
   </div>
 </template>

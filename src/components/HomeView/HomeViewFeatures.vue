@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-appContainer px-4 lg:px-8 mx-auto">
+  <section id="features" class="max-w-appContainer px-4 lg:px-8 mx-auto">
     <div class="flex">
       <div class="hidden md:inline-block basis-2/5">
         <img src="/src/assets/images/home-features.png" alt="" class="w-full object-cover" />

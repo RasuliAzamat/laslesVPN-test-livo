@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-appContainer px-4 lg:px-8 mx-auto pt-14 md:pt-20">
+  <section id="pricing" class="max-w-appContainer px-4 lg:px-8 mx-auto pt-14 md:pt-20">
     <div class="mb-14 text-center">
       <h1 class="mb-5">Choose Your Plan</h1>
       <p class="md:w-2/5 m-auto">
@@ -18,16 +18,13 @@
         ]"
       >
         <img src="/src/assets/images/home-pricing.png" alt="" class="mb-8" />
-
         <h3 class="mb-8">{{ name }}</h3>
-
         <ul class="mb-14">
           <li v-for="feature in features" :key="feature" class="flex items-center mb-3 last:mb-0">
             <CheckIcon class="w-4 mr-6 text-success" />
             {{ feature }}
           </li>
         </ul>
-
         <strong class="mt-auto mb-5 text-2xl text-dark">
           {{ price }}
           <span v-if="price !== 'Free'" class="font-normal text-slate-700">/ mo</span>

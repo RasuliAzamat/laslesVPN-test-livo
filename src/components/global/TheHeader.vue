@@ -4,7 +4,6 @@
       <a href="/">
         <img src="/src/assets/images/logo.png" alt="logo" />
       </a>
-
       <ul class="hidden lg:flex">
         <li v-for="{id, name, path} in navLinks" :key="id" class="mr-10 last:mr-0">
           <a :href="path">
@@ -12,18 +11,15 @@
           </a>
         </li>
       </ul>
-
       <div class="hidden lg:inline-block text-dark">
         <button class="font-medium mr-7">Sign in</button>
         <button class="font-medium px-11 py-3 border rounded-3xl border-danger text-danger">
           Sign up
         </button>
       </div>
-
       <div class="inline-block lg:hidden cursor-pointer">
         <MenuIcon class="w-8 text-dark" @click="isActive = !isActive" />
       </div>
-
       <div
         :class="[
           '  fixed top-24 right-0 bottom-0 z-30 flex flex-col items-center justify-center text-center bg-white transition-all',
@@ -58,11 +54,11 @@ import {MenuIcon} from '@heroicons/vue/solid'
 import {ref} from 'vue'
 
 const navLinks = ref([
-  {id: '1', name: 'About', path: '/about'},
-  {id: '2', name: 'Features', path: '/features'},
-  {id: '3', name: 'Pricing', path: '/pricing'},
-  {id: '4', name: 'Testimonials', path: '/testimonials'},
-  {id: '5', name: 'Help', path: '/help'},
+  {id: '1', name: 'About', path: '#about'},
+  {id: '2', name: 'Features', path: '#features'},
+  {id: '3', name: 'Pricing', path: '#pricing'},
+  {id: '4', name: 'Testimonials', path: '#testimonials'},
+  {id: '5', name: 'Help', path: '#help'},
 ])
 
 const isActive = ref(false)

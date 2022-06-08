@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-mainFamily text-gray;
+    @apply font-mainFamily text-gray scroll-smooth;
   }
 
   button {
@@ -20,6 +20,13 @@
 
   h3 {
     @apply text-lg font-semibold text-dark;
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      @apply text-4xl;
+      line-height: 70px;
+    }
   }
 
   @media (min-width: 1024px) {
