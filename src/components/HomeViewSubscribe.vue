@@ -1,6 +1,6 @@
 <template>
-  <section class="max-w-appContainer px-4 lg:px-8 mx-auto">
-    <div class="flex items-center justify-between py-12 px-16 shadow-xl">
+  <section class="max-w-appContainer px-4 lg:px-8 mx-auto bg-white shadow-xl">
+    <div class="flex items-center justify-between py-12 px-16">
       <div class="basis-5/12">
         <h1>Subscribe Now for Get Special Features!</h1>
         <p>Let's subscribe with us and find the fun.</p>

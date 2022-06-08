@@ -7,7 +7,10 @@
     <HomeViewNetwork class="mb-28" />
     <HomeViewPartners class="mb-32" />
     <HomeViewReviews />
-    <HomeViewSubscribe />
+    <div class="relative flex items-center flex-col">
+      <HomeViewSubscribe class="absolute" />
+      <TheFooter class="absolute -z-10 w-full mt-40" />
+    </div>
   </div>
 </template>
 
@@ -20,6 +23,7 @@ import HomeViewNetwork from '../components/HomeViewNetwork.vue'
 import HomeViewPartners from '../components/HomeViewPartners.vue'
 import HomeViewReviews from '../components/HomeViewReviews.vue'
 import HomeViewSubscribe from '../components/HomeViewSubscribe.vue'
+import TheFooter from '../components/TheFooter.vue'
 </script>
 
 <style lang="scss" scoped></style>

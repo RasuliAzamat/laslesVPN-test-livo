@@ -3,7 +3,12 @@
   height: 400px;
 }
 
-.reviews-slider .swiper-horizontal>.swiper-pagination-bullets,
+.reviews-slider .swiper-slide-active {
+  border-color: #f53838;
+  @apply shadow-xl
+}
+
+.reviews-slider .swiper-horizontal > .swiper-pagination-bullets,
 .reviews-slider .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: 20%;
   left: -45.5%;
@@ -13,12 +18,12 @@
   width: 15px;
   height: 15px;
   opacity: 1;
-  background: #DDE0E4;
+  background: #dde0e4;
 }
 
 .swiper-pagination-bullet-active {
   width: 45px;
-  background-color: #F53838;
+  background-color: #f53838;
   border-radius: 50px;
 }
 

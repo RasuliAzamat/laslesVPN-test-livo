@@ -11,6 +11,7 @@
       :modules="modules"
       :navigation="true"
       :pagination="true"
+      :autoplay="{delay: 2500}"
       :slidesPerView="2.5"
       :spaceBetween="50"
       class="reviews-slider"
