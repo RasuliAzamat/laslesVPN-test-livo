@@ -2,7 +2,7 @@
   <section id="features" class="max-w-appContainer px-4 lg:px-8 mx-auto">
     <div class="flex">
       <div class="hidden md:inline-block basis-2/5">
-        <img src="/src/assets/images/home-features.png" alt="" class="w-full object-cover" />
+        <img src="/images/bg-images/home-features.png" alt="" class="w-full object-cover" />
       </div>
       <div class="w-full md:basis-1/2">
         <h1 class="mb-5 md:mb-14">We Provide Many Features You Can Use</h1>

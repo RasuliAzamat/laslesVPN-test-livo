@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheHeader class="mb-10 md:mb-16 lg:mb-20" />
+    <TheHeader />
 
     <main>
       <HomeView />

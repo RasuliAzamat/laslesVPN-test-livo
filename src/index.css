@@ -5,8 +5,12 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
-    @apply font-mainFamily text-gray scroll-smooth;
+    @apply font-mainFamily text-gray;
   }
 
   button {
@@ -20,6 +24,12 @@
 
   h3 {
     @apply text-lg font-semibold text-dark;
+  }
+
+  @media (max-width: 425px) {
+    body {
+      @apply text-sm;
+    }
   }
 
   @media (min-width: 768px) {

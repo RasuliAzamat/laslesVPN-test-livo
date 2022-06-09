@@ -59,7 +59,7 @@
 
 .swiper-button-prev {
   left: 88%;
-  background-image: url('../images/slider/slider-arrow-left.png');
+  background-image: url('/images/arrows/slider-arrow-left.png');
 }
 
 @media (max-width: 1150px) {
@@ -87,6 +87,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .swiper-button-prev {
+    left: 70%;
+  }
+}
+
 @media (max-width: 400px) {
   .swiper-button-prev {
     left: 65%;
@@ -94,15 +100,15 @@
 }
 
 .swiper-button-next {
-  background-image: url('../images/slider/slider-arrow-right.png');
+  background-image: url('/images/arrows/slider-arrow-right.png');
 }
 
 .swiper-button-prev.swiper-button-disabled {
   opacity: 1;
-  background-image: url('../images/slider/slider-arrow-left-disabled.png');
+  background-image: url('/images/arrows/slider-arrow-left-disabled.png');
 }
 
 .swiper-button-next.swiper-button-disabled {
   opacity: 1;
-  background-image: url('../images/slider/slider-arrow-right-disabled.png');
+  background-image: url('/images/arrows/slider-arrow-right-disabled.png');
 }

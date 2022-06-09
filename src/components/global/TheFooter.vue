@@ -1,9 +1,9 @@
 <template>
   <footer class="bg-slate-100">
-    <div class="max-w-appContainer pb-24 pt-44 px-4 lg:px-8 mx-auto">
+    <div class="max-w-appContainer pb-20 pt-44 lg:pt-52 px-4 lg:px-8 mx-auto">
       <div class="flex flex-col md:flex-row items-center justify-between">
         <div class="w-full md:basis-1/4">
-          <img src="/src/assets/images/logo.png" alt="logo" class="mb-5" />
+          <img src="/images/logo.png" alt="logo" class="mb-5" />
           <p class="mb-8">
             <strong>LaslesVPN</strong> is a private virtual network that has unique features and has
             high security.
@@ -51,9 +51,9 @@
 import {ref} from 'vue'
 
 const social = ref([
-  {id: '1', name: 'Facebook', url: '#', image: '/src/assets/images/social/facebook.png'},
-  {id: '2', name: 'Twitter', url: '#', image: '/src/assets/images/social/twitter.png'},
-  {id: '3', name: 'Instagram', url: '#', image: '/src/assets/images/social/instagram.png'},
+  {id: '1', name: 'Facebook', url: '#', image: '/images/social/facebook.png'},
+  {id: '2', name: 'Twitter', url: '#', image: '/images/social/twitter.png'},
+  {id: '3', name: 'Instagram', url: '#', image: '/images/social/instagram.png'},
 ])
 
 const product = ref([

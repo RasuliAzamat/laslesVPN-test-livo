@@ -1,5 +1,5 @@
 <template>
-  <section id="main" class="max-w-appContainer px-4 lg:px-8 mx-auto flex justify-between">
+  <section id="about" class="max-w-appContainer px-4 lg:px-8 mx-auto flex justify-between">
     <div class="w-full md:basis-1/2 lg:basis-2/5">
       <h1 class="mt-10 mb-6">Want anything to be easy with <strong>LaslesVPN.</strong></h1>
       <p class="mb-12">
@@ -14,7 +14,7 @@
     </div>
     <div class="hidden md:inline-block basis-1/2">
       <img
-        src="/src/assets/images/home.png"
+        src="/images/bg-images/home-main.png"
         alt="person sittig near desctop"
         class="w-full h-full object-contain"
       />

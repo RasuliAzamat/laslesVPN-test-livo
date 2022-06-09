@@ -7,7 +7,7 @@
       </p>
     </div>
     <div>
-      <img src="/src/assets/images/home-network.png" alt="" class="w-full h-full object-cover" />
+      <img src="/images/bg-images/home-network.png" alt="" class="w-full h-full object-cover" />
     </div>
   </section>
 </template>

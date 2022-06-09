@@ -1,8 +1,8 @@
 <template>
-  <header class="max-w-appContainer px-4 lg:px-8 mx-auto">
-    <nav class="flex items-center justify-between pt-11">
+  <header class="max-w-appContainer py-7 md:py-11 px-4 lg:px-8 mx-auto">
+    <nav class="flex items-center justify-between">
       <a href="/">
-        <img src="/src/assets/images/logo.png" alt="logo" />
+        <img src="/images/logo.png" alt="logo" />
       </a>
       <ul class="hidden lg:flex">
         <li v-for="{id, name, path} in navLinks" :key="id" class="mr-10 last:mr-0">
@@ -22,7 +22,7 @@
       </div>
       <div
         :class="[
-          '  fixed top-24 right-0 bottom-0 z-30 flex flex-col items-center justify-center text-center bg-white transition-all',
+          'fixed top-20 right-0 bottom-0 z-30 flex flex-col items-center justify-center text-center bg-white transition-all mobile-menu',
           {
             'left-0': isActive,
             'left-full': !isActive,
@@ -33,7 +33,7 @@
       >
         <ul class="mb-10">
           <li v-for="{id, name, path} in navLinks" :key="id" class="text-2xl mb-5 last:mb-0">
-            <a :href="path">
+            <a :href="path" @click="isActive = !isActive">
               {{ name }}
             </a>
           </li>

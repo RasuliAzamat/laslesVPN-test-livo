@@ -17,7 +17,7 @@
           {'plan-3': id === 3},
         ]"
       >
-        <img src="/src/assets/images/home-pricing.png" alt="" class="mb-8" />
+        <img src="/images/bg-images/home-pricing.png" alt="" class="mb-8" />
         <h3 class="mb-8">{{ name }}</h3>
         <ul class="mb-14">
           <li v-for="feature in features" :key="feature" class="flex items-center mb-3 last:mb-0">
